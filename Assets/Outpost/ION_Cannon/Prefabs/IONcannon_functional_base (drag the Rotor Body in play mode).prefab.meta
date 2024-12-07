@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 8a6f329165746430c9ef778db977f273
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16502
+  packageName: 'Multilevel Turret: ION Cannon'
+  packageVersion: 1.0
+  assetPath: Assets/Outpost/ION_Cannon/Prefabs/IONcannon_functional_base (drag the
+    Rotor Body in play mode).prefab
+  uploadId: 5066

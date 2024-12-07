@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: d52a69f02b407e14c8f65eabb754c766
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180951
+  packageName: Dropdown Attribute
+  packageVersion: 1.0
+  assetPath: Assets/DropdownAttributes/Example (Remove this)/Scripts/UnityObjectTest/Data
+    classes/ChestplateData.cs
+  uploadId: 428683

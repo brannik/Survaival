@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 26bb35ef79a399a4594f74417820ee0f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180951
+  packageName: Dropdown Attribute
+  packageVersion: 1.0
+  assetPath: Assets/DropdownAttributes/Example (Remove this)/Scripts/SerializedObjectTest/SerializedObjectDropdownTestPlayer.cs
+  uploadId: 428683

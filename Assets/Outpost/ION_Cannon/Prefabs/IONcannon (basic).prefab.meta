@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ba434859afb1c4229aaede0cc81877b5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16502
+  packageName: 'Multilevel Turret: ION Cannon'
+  packageVersion: 1.0
+  assetPath: Assets/Outpost/ION_Cannon/Prefabs/IONcannon (basic).prefab
+  uploadId: 5066

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 92a9a047c4748764cb18ff26be057323
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 180951
+  packageName: Dropdown Attribute
+  packageVersion: 1.0
+  assetPath: Assets/DropdownAttributes/Example (Remove this)/Scripts/UnityObjectTest/Data
+    classes/BootsData.cs
+  uploadId: 428683

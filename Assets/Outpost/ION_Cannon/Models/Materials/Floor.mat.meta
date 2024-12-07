@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b558294cb20d3487fb07497254c8c618
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16502
+  packageName: 'Multilevel Turret: ION Cannon'
+  packageVersion: 1.0
+  assetPath: Assets/Outpost/ION_Cannon/Models/Materials/Floor.mat
+  uploadId: 5066

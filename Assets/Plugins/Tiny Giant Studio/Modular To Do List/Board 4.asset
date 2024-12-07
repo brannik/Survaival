@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6453eca00461b4bb904955bb138b82, type: 3}
+  m_Name: Board 4
+  m_EditorClassIdentifier: 
+  myName: Level Design
+  myDescription: 
+  iconTexture: {fileID: 0}
+  mainColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  colorScheme: {fileID: 0}
+  starred: 0
+  toDoLists:
+  - myName: To do
+    editing: 0
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    addedDescription: 0
+    myDescription: Description
+    tasks: []
+    creationTime:
+      year: 0
+      month: 0
+      day: 0
+      dayOfTheWeek: 
+      minute: 0
+      hour: 0
+      hourBeforeCountingAMPM: 0
+      timeIndex: 0
+      _hourInTweleveHourFormat:
+        hour: 0
+        format: 0
+    opened: 1
+    searchingFor: 
+  - myName: Doing
+    editing: 0
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    addedDescription: 0
+    myDescription: Description
+    tasks: []
+    creationTime:
+      year: 0
+      month: 0
+      day: 0
+      dayOfTheWeek: 
+      minute: 0
+      hour: 0
+      hourBeforeCountingAMPM: 0
+      timeIndex: 0
+      _hourInTweleveHourFormat:
+        hour: 0
+        format: 0
+    opened: 1
+    searchingFor: 
+  - myName: In Review
+    editing: 0
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    addedDescription: 0
+    myDescription: Description
+    tasks: []
+    creationTime:
+      year: 0
+      month: 0
+      day: 0
+      dayOfTheWeek: 
+      minute: 0
+      hour: 0
+      hourBeforeCountingAMPM: 0
+      timeIndex: 0
+      _hourInTweleveHourFormat:
+        hour: 0
+        format: 0
+    opened: 1
+    searchingFor: 
+  - myName: Done
+    editing: 0
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    addedDescription: 0
+    myDescription: Description
+    tasks: []
+    creationTime:
+      year: 0
+      month: 0
+      day: 0
+      dayOfTheWeek: 
+      minute: 0
+      hour: 0
+      hourBeforeCountingAMPM: 0
+      timeIndex: 0
+      _hourInTweleveHourFormat:
+        hour: 0
+        format: 0
+    opened: 1
+    searchingFor: 
+  showPendingItems: 1
+  showCompletedItems: 1
+  showIgnoredItems: 1
+  showFailedTasks: 1
+  alwaysShowIconsOnly: 0
+  showTaskDetails: 1
+  hideFolderIcons: 0
+  showRealIndex: 0
+  tags: []
+  tagFilterType: 0
+  editing: 0
+  searchingFor: 
+  dueSoonTasksCount: 0
+  backlogTasksCount: 0
+  keywordFound: 0
+  searchKeywordInTopicName: 0
+  searchKeywordInTopicDescription: 0
+  searchKeywordInTodoListName: 0
+  searchKeywordInTodoListDescription: 0
+  searchKeywordInTaskNames: 0
+  searchKeywordInTaskDescription: 0

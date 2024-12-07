@@ -1,0 +1,939 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f6453eca00461b4bb904955bb138b82, type: 3}
+  m_Name: Board 1
+  m_EditorClassIdentifier: 
+  myName: Building system
+  myDescription: 
+  iconTexture: {fileID: 0}
+  mainColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  colorScheme: {fileID: 0}
+  starred: 1
+  toDoLists:
+  - myName: To do
+    editing: 0
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    addedDescription: 0
+    myDescription: Description
+    tasks:
+    - myName: 'add animations when building
+
+'
+      hideMyDetails: 1
+      addedDescription: 0
+      myDescription: Description
+      addedReference: 0
+      references: []
+      completed: 0
+      failed: 0
+      ignored: 0
+      creationTime:
+        year: 2024
+        month: 12
+        day: 2
+        dayOfTheWeek: Monday
+        minute: 15
+        hour: 2
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 2
+          format: 0
+      hasDueDate: 0
+      dueDate:
+        year: 2024
+        month: 12
+        day: 2
+        dayOfTheWeek: Monday
+        minute: 15
+        hour: 2
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 2
+          format: 0
+      completionTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      failedTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      ignoredTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      tags: []
+      editing: 0
+      visibilityIndex: 1
+      heightTakenInEditor: 28
+    - myName: minor building ui errors
+      hideMyDetails: 0
+      addedDescription: 1
+      myDescription: the ui is not switched properly between normal - building and
+        max level
+      addedReference: 0
+      references: []
+      completed: 0
+      failed: 0
+      ignored: 0
+      creationTime:
+        year: 2024
+        month: 12
+        day: 2
+        dayOfTheWeek: Monday
+        minute: 42
+        hour: 4
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 4
+          format: 0
+      hasDueDate: 0
+      dueDate:
+        year: 2024
+        month: 12
+        day: 2
+        dayOfTheWeek: Monday
+        minute: 42
+        hour: 4
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 4
+          format: 0
+      completionTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      failedTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      ignoredTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      tags: []
+      editing: 0
+      visibilityIndex: 2
+      heightTakenInEditor: 56
+    - myName: building ui show - no building nearby when other player is interracting
+      hideMyDetails: 1
+      addedDescription: 0
+      myDescription: Description
+      addedReference: 0
+      references: []
+      completed: 0
+      failed: 0
+      ignored: 0
+      creationTime:
+        year: 2024
+        month: 12
+        day: 2
+        dayOfTheWeek: Monday
+        minute: 42
+        hour: 4
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 4
+          format: 0
+      hasDueDate: 0
+      dueDate:
+        year: 2024
+        month: 12
+        day: 2
+        dayOfTheWeek: Monday
+        minute: 42
+        hour: 4
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 4
+          format: 0
+      completionTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      failedTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      ignoredTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      tags: []
+      editing: 0
+      visibilityIndex: 3
+      heightTakenInEditor: 28
+    creationTime:
+      year: 0
+      month: 0
+      day: 0
+      dayOfTheWeek: 
+      minute: 0
+      hour: 0
+      hourBeforeCountingAMPM: 0
+      timeIndex: 0
+      _hourInTweleveHourFormat:
+        hour: 0
+        format: 0
+    opened: 1
+    searchingFor: 
+  - myName: Doing
+    editing: 0
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    addedDescription: 0
+    myDescription: Description
+    tasks:
+    - myName: Sync loding bar when building
+      hideMyDetails: 1
+      addedDescription: 0
+      myDescription: Description
+      addedReference: 0
+      references: []
+      completed: 0
+      failed: 0
+      ignored: 0
+      creationTime:
+        year: 2024
+        month: 11
+        day: 30
+        dayOfTheWeek: Saturday
+        minute: 59
+        hour: 23
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 11
+          format: 1
+      hasDueDate: 0
+      dueDate:
+        year: 2024
+        month: 11
+        day: 30
+        dayOfTheWeek: Saturday
+        minute: 59
+        hour: 23
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 11
+          format: 1
+      completionTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      failedTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      ignoredTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      tags: []
+      editing: 0
+      visibilityIndex: 1
+      heightTakenInEditor: 19
+    - myName: Sync the level of the building
+      hideMyDetails: 1
+      addedDescription: 0
+      myDescription: Description
+      addedReference: 0
+      references: []
+      completed: 0
+      failed: 0
+      ignored: 0
+      creationTime:
+        year: 2024
+        month: 12
+        day: 2
+        dayOfTheWeek: Monday
+        minute: 11
+        hour: 2
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 2
+          format: 0
+      hasDueDate: 0
+      dueDate:
+        year: 2024
+        month: 12
+        day: 2
+        dayOfTheWeek: Monday
+        minute: 11
+        hour: 2
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 2
+          format: 0
+      completionTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      failedTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      ignoredTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      tags: []
+      editing: 0
+      visibilityIndex: 2
+      heightTakenInEditor: 19
+    - myName: Animation is not in sync
+      hideMyDetails: 1
+      addedDescription: 0
+      myDescription: Description
+      addedReference: 0
+      references: []
+      completed: 0
+      failed: 0
+      ignored: 0
+      creationTime:
+        year: 2024
+        month: 12
+        day: 2
+        dayOfTheWeek: Monday
+        minute: 11
+        hour: 2
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 2
+          format: 0
+      hasDueDate: 0
+      dueDate:
+        year: 2024
+        month: 12
+        day: 2
+        dayOfTheWeek: Monday
+        minute: 11
+        hour: 2
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 2
+          format: 0
+      completionTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      failedTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      ignoredTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      tags: []
+      editing: 0
+      visibilityIndex: 3
+      heightTakenInEditor: 19
+    creationTime:
+      year: 0
+      month: 0
+      day: 0
+      dayOfTheWeek: 
+      minute: 0
+      hour: 0
+      hourBeforeCountingAMPM: 0
+      timeIndex: 0
+      _hourInTweleveHourFormat:
+        hour: 0
+        format: 0
+    opened: 1
+    searchingFor: 
+  - myName: In Review
+    editing: 0
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    addedDescription: 0
+    myDescription: Description
+    tasks:
+    - myName: Prevent multiple characters using same object at the same time
+      hideMyDetails: 1
+      addedDescription: 0
+      myDescription: Description
+      addedReference: 0
+      references: []
+      completed: 0
+      failed: 0
+      ignored: 0
+      creationTime:
+        year: 2024
+        month: 11
+        day: 30
+        dayOfTheWeek: Saturday
+        minute: 59
+        hour: 23
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 11
+          format: 1
+      hasDueDate: 0
+      dueDate:
+        year: 2024
+        month: 11
+        day: 30
+        dayOfTheWeek: Saturday
+        minute: 59
+        hour: 23
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 11
+          format: 1
+      completionTime:
+        year: 2024
+        month: 12
+        day: 2
+        dayOfTheWeek: Monday
+        minute: 51
+        hour: 1
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      failedTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      ignoredTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      tags: []
+      editing: 0
+      visibilityIndex: 1
+      heightTakenInEditor: 28
+    - myName: targeted object is not cleared when player exit from trigger zone
+      hideMyDetails: 1
+      addedDescription: 0
+      myDescription: Description
+      addedReference: 0
+      references: []
+      completed: 0
+      failed: 0
+      ignored: 0
+      creationTime:
+        year: 2024
+        month: 12
+        day: 2
+        dayOfTheWeek: Monday
+        minute: 15
+        hour: 2
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 2
+          format: 0
+      hasDueDate: 0
+      dueDate:
+        year: 2024
+        month: 12
+        day: 2
+        dayOfTheWeek: Monday
+        minute: 15
+        hour: 2
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 2
+          format: 0
+      completionTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      failedTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      ignoredTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      tags: []
+      editing: 0
+      visibilityIndex: 2
+      heightTakenInEditor: 28
+    creationTime:
+      year: 0
+      month: 0
+      day: 0
+      dayOfTheWeek: 
+      minute: 0
+      hour: 0
+      hourBeforeCountingAMPM: 0
+      timeIndex: 0
+      _hourInTweleveHourFormat:
+        hour: 0
+        format: 0
+    opened: 1
+    searchingFor: 
+  - myName: Done
+    editing: 0
+    mainColor: {r: 1, g: 1, b: 1, a: 1}
+    addedDescription: 0
+    myDescription: Description
+    tasks:
+    - myName: Network spawn prefabs
+      hideMyDetails: 0
+      addedDescription: 0
+      myDescription: Description
+      addedReference: 1
+      references: []
+      completed: 1
+      failed: 0
+      ignored: 0
+      creationTime:
+        year: 2024
+        month: 11
+        day: 30
+        dayOfTheWeek: Saturday
+        minute: 59
+        hour: 23
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 11
+          format: 1
+      hasDueDate: 0
+      dueDate:
+        year: 2024
+        month: 12
+        day: 2
+        dayOfTheWeek: Monday
+        minute: 12
+        hour: 2
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      completionTime:
+        year: 2024
+        month: 12
+        day: 2
+        dayOfTheWeek: Monday
+        minute: 39
+        hour: 4
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      failedTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      ignoredTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      tags: []
+      editing: 0
+      visibilityIndex: 1
+      heightTakenInEditor: 19
+    - myName: fix levels selection
+      hideMyDetails: 0
+      addedDescription: 0
+      myDescription: Description
+      addedReference: 1
+      references: []
+      completed: 1
+      failed: 0
+      ignored: 0
+      creationTime:
+        year: 2024
+        month: 12
+        day: 1
+        dayOfTheWeek: Sunday
+        minute: 2
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: -12
+          format: 1
+      hasDueDate: 0
+      dueDate:
+        year: 2024
+        month: 12
+        day: 2
+        dayOfTheWeek: Monday
+        minute: 13
+        hour: 2
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      completionTime:
+        year: 2024
+        month: 12
+        day: 2
+        dayOfTheWeek: Monday
+        minute: 51
+        hour: 1
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      failedTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      ignoredTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      tags: []
+      editing: 0
+      visibilityIndex: 2
+      heightTakenInEditor: 19
+    - myName: ANimate the models - DOTween - Gatherable.cs
+      hideMyDetails: 1
+      addedDescription: 0
+      myDescription: Description
+      addedReference: 0
+      references: []
+      completed: 1
+      failed: 0
+      ignored: 0
+      creationTime:
+        year: 2024
+        month: 12
+        day: 1
+        dayOfTheWeek: Sunday
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: -12
+          format: 1
+      hasDueDate: 0
+      dueDate:
+        year: 2024
+        month: 12
+        day: 1
+        dayOfTheWeek: Sunday
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: -12
+          format: 1
+      completionTime:
+        year: 2024
+        month: 12
+        day: 2
+        dayOfTheWeek: Monday
+        minute: 41
+        hour: 4
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      failedTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      ignoredTime:
+        year: 0
+        month: 0
+        day: 0
+        dayOfTheWeek: 
+        minute: 0
+        hour: 0
+        hourBeforeCountingAMPM: 0
+        timeIndex: 0
+        _hourInTweleveHourFormat:
+          hour: 0
+          format: 0
+      tags: []
+      editing: 0
+      visibilityIndex: 3
+      heightTakenInEditor: 28
+    creationTime:
+      year: 0
+      month: 0
+      day: 0
+      dayOfTheWeek: 
+      minute: 0
+      hour: 0
+      hourBeforeCountingAMPM: 0
+      timeIndex: 0
+      _hourInTweleveHourFormat:
+        hour: 0
+        format: 0
+    opened: 1
+    searchingFor: 
+  showPendingItems: 1
+  showCompletedItems: 1
+  showIgnoredItems: 1
+  showFailedTasks: 1
+  alwaysShowIconsOnly: 0
+  showTaskDetails: 1
+  hideFolderIcons: 0
+  showRealIndex: 0
+  tags: []
+  tagFilterType: 0
+  editing: 0
+  searchingFor: 
+  dueSoonTasksCount: 0
+  backlogTasksCount: 0
+  keywordFound: 0
+  searchKeywordInTopicName: 0
+  searchKeywordInTopicDescription: 0
+  searchKeywordInTodoListName: 0
+  searchKeywordInTodoListDescription: 0
+  searchKeywordInTaskNames: 0
+  searchKeywordInTaskDescription: 0

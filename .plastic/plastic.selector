@@ -1,0 +1,4 @@
+repository "Survaival@Brannik@cloud"
+  path "/"
+    br "/main"
+    co "/main"

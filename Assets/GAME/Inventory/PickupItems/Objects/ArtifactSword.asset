@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59381dd54eddf0944873d57a50b7fc2b, type: 3}
+  m_Name: ArtifactSword
+  m_EditorClassIdentifier: 
+  itemId: 8
+  itemName: Sword 2
+  subType: 2
+  itemDescription: Powerrr
+  maxStack: 1
+  itemSprite: {fileID: 21300000, guid: f7297527d4fb1e34ca5bd1d2e3cedcd6, type: 3}
+  pickupType: 0
+  quality: 6

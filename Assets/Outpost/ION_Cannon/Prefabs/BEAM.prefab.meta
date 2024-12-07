@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 03602e534a9ae4de78f73b6a0e5be3a0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16502
+  packageName: 'Multilevel Turret: ION Cannon'
+  packageVersion: 1.0
+  assetPath: Assets/Outpost/ION_Cannon/Prefabs/BEAM.prefab
+  uploadId: 5066

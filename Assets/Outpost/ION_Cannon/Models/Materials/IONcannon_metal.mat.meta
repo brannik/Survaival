@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b993b389fd3984a26a86339a80ff1021
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 16502
+  packageName: 'Multilevel Turret: ION Cannon'
+  packageVersion: 1.0
+  assetPath: Assets/Outpost/ION_Cannon/Models/Materials/IONcannon_metal.mat
+  uploadId: 5066
