@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 04e01e34e3344154caecfa99e411f9f8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 7105
+  packageName: Git UniTEAM
+  packageVersion: 1.1.2.1
+  assetPath: Assets/Git UniTEAM/Editor/Windows/LocalStashedCommitsWindow.cs
+  uploadId: 5182

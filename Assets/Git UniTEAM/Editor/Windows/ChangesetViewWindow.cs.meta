@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d4ffb1e92a10b2e45813db416fa206ee
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 7105
+  packageName: Git UniTEAM
+  packageVersion: 1.1.2.1
+  assetPath: Assets/Git UniTEAM/Editor/Windows/ChangesetViewWindow.cs
+  uploadId: 5182

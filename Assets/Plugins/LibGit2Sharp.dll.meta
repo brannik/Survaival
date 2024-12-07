@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 08b9668e533c0bd4791452c426ebb7f2
+PluginImporter:
+  externalObjects: {}
+  serializedVersion: 3
+  iconMap: {}
+  executionOrder: {}
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 1
+  platformData:
+    Any:
+      enabled: 1
+      settings: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 7105
+  packageName: Git UniTEAM
+  packageVersion: 1.1.2.1
+  assetPath: Assets/Plugins/LibGit2Sharp.dll
+  uploadId: 5182

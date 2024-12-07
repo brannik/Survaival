@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2913daa0077e22a4eb6088008ed87788
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 7105
+  packageName: Git UniTEAM
+  packageVersion: 1.1.2.1
+  assetPath: Assets/Git UniTEAM/Threading Helper/Thread.cs
+  uploadId: 5182

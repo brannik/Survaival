@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1151db2560eece8479e4bcc5b3cd61a6
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 7105
+  packageName: Git UniTEAM
+  packageVersion: 1.1.2.1
+  assetPath: Assets/Plugins/git2.dll
+  uploadId: 5182

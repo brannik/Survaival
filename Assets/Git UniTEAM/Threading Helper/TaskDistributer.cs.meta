@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 06ec8c4327d49f64d99b73e76c8ff3ab
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 7105
+  packageName: Git UniTEAM
+  packageVersion: 1.1.2.1
+  assetPath: Assets/Git UniTEAM/Threading Helper/TaskDistributer.cs
+  uploadId: 5182

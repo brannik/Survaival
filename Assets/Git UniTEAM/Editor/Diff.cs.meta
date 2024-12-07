@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ad875c54921008e44bd57822ee3850d9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 7105
+  packageName: Git UniTEAM
+  packageVersion: 1.1.2.1
+  assetPath: Assets/Git UniTEAM/Editor/Diff.cs
+  uploadId: 5182
